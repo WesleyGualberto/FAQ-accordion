@@ -74,6 +74,12 @@ button {
   font-size: 0.9rem;
 }
 
+button:hover {
+    color: var(--Purple-600);
+
+    transition: 0.5s;
+}
+
 div > p {
   margin-top: 10px;
   font-size: var(--tamanho-paragrafos);
@@ -85,13 +91,18 @@ div > p {
   font-size: 11px;
   text-align: center;
 
-  color: rgba(34, 34, 34, 0.753);
+  color: var(--Purple-600);
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Purple-950);
   text-decoration: none;
 
-  color: rgb(34, 34, 34);
   font-weight: 600;
+}
+
+.attribution a:hover {
+    color: var(--Purple-600);
+
+    transition: 0.5s;
 }
