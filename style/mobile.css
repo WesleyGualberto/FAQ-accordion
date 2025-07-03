@@ -1,0 +1,15 @@
+.titulo-faq > img {
+  height: 1.5rem;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+button {
+    font-size: 12px;
+}
+
+div > p {
+    font-size: 12px;
+}
