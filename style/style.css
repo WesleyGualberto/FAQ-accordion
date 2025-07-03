@@ -20,7 +20,6 @@ body {
   background: url(../assets/images/background-pattern-desktop.svg) no-repeat top /
     100vw;
   background-color: var(--Purple-100);
-
   font-family: var(--font-principal);
 }
 
@@ -48,6 +47,7 @@ section {
 
 .titulo-faq > img {
   height: 2rem;
+  transition: height 0.3s ease, letter-spacing 0.3s ease;
 }
 
 h1 {
@@ -66,27 +66,29 @@ button {
   align-items: center;
   gap: 0.5rem;
 
-  margin-bottom: 20px;
-
   border-style: none;
   background-color: var(--white);
 
   color: var(--Purple-950);
   font-weight: var(--peso-subtitulos);
-  font-size: 0.9rem;
+  font-size: 13px;
 }
 
 button:hover {
-    color: var(--Purple-600);
+  color: var(--Purple-600);
 
-    transition: 0.5s;
+  transition: 0.5s;
 }
 
 div > p {
-  margin-top: 10px;
+  margin: 10px 20px 0 0;
   font-size: var(--tamanho-paragrafos);
   font-weight: var(--peso-paragrafos);
   color: var(--Purple-600);
+}
+
+.transitionSuave {
+  transition: font-size 0.3s ease, letter-spacing 0.3s ease;
 }
 
 .attribution {
@@ -104,7 +106,7 @@ div > p {
 }
 
 .attribution a:hover {
-    color: var(--Purple-600);
+  color: var(--Purple-600);
 
-    transition: 0.5s;
+  transition: 0.5s;
 }

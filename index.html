@@ -21,7 +21,11 @@
 
     <link rel="stylesheet" href="../style/style.css" />
 
-    <link rel="stylesheet" href="./style/mobile.css" media="(max-width: 600px)">
+    <link
+      rel="stylesheet"
+      href="./style/mobile.css"
+      media="(max-width: 600px)"
+    />
 
     <title>Frontend Mentor | FAQ accordion</title>
   </head>
@@ -34,7 +38,7 @@
             alt="Imagem de uma estrela roxa"
             referrerpolicy="no-referrer"
           />
-          <h1>FAQs</h1>
+          <h1 class="transitionSuave">FAQs</h1>
         </div>
         <article>
           <h3>
@@ -42,6 +46,7 @@
               aria-expanded="false"
               aria-controls="resposta1"
               id="pergunta1"
+              class="transitionSuave"
             >
               What is Frontend Mentor, and how will it help me?
               <img
@@ -51,7 +56,7 @@
             </button>
           </h3>
           <div id="resposta1" role="region" aria-labelledby="pergunta1" hidden>
-            <p>
+            <p class="transitionSuave">
               Frontend Mentor offers realistic coding challenges to help
               developers improve their frontend coding skills with projects in
               HTML, CSS, and JavaScript. It's suitable for all levels and ideal
