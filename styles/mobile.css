@@ -1,3 +1,7 @@
+section {
+  width: 70%;
+}
+
 .titulo-faq > img {
   height: 1.5rem;
 }
@@ -12,4 +16,8 @@ button {
 
 div > p {
   font-size: 12px;
+}
+
+.attribution {
+  font-size: 11px;
 }

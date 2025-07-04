@@ -16,24 +16,28 @@
   --peso-titulo: 700;
 }
 
+body, html {
+  height: 100%;
+}
+
 body {
   background: url(../assets/images/background-pattern-desktop.svg) no-repeat top /
-    100vw;
+    100%;
   background-color: var(--Purple-100);
   font-family: var(--font-principal);
 }
 
 main {
+  min-height: calc(90vh - 40px);
   display: flex;
-  align-items: center; /* Centraliza na vertical */
-  height: 80vh; /* Garante que tenha altura suficiente para centralizar */
-  justify-content: center; /* (Opcional) Centraliza na horizontal */
+  align-items: center;
+  justify-content: center;
 }
 
 section {
-  width: 40vw;
-  height: auto;
-  padding: 20px;
+  width: 50%;
+  padding: 10px 20px;
+  margin: 20px 0;
 
   border-radius: 20px;
   background-color: var(--white);
@@ -47,7 +51,7 @@ section {
 
 .titulo-faq > img {
   height: 2rem;
-  transition: height 0.3s ease, letter-spacing 0.3s ease;
+  transition: height 0.5s ease, letter-spacing 0.5s ease;
 }
 
 h1 {
@@ -72,6 +76,7 @@ button {
   color: var(--Purple-950);
   font-weight: var(--peso-subtitulos);
   font-size: 13px;
+  text-align: left;
 }
 
 button:hover {
@@ -88,11 +93,11 @@ div > p {
 }
 
 .transitionSuave {
-  transition: font-size 0.3s ease, letter-spacing 0.3s ease;
+  transition: font-size 0.5s ease, letter-spacing 0.5s ease;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
 
   color: var(--Purple-600);

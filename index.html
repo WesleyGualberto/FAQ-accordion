@@ -24,14 +24,20 @@
     <link
       rel="stylesheet"
       href="./styles/mobile.css"
-      media="(max-width: 600px)"
+      media="(max-width: 768px)"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./styles/tablets.css"
+      media="(min-width: 769px) and (max-width: 1024px)"
     />
 
     <title>Frontend Mentor | FAQ accordion</title>
   </head>
   <body>
     <main>
-      <section>
+      <section class="transitionSuave">
         <div class="titulo-faq">
           <img
             src="assets/images/icon-star.svg"
@@ -131,12 +137,14 @@
       </section>
     </main>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Wesley Gualberto</a>.
-    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Wesley Gualberto</a>.
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>
