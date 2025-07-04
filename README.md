@@ -69,7 +69,7 @@ Este projeto está sob a Licença MIT. Veja o arquivo [LICENSE](./LICENSE) para 
 
 Este projeto foi desenvolvido com base no desafio do site **Frontend Mentor**:
 
-💡 [FAQ Accordion Challenge](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam)
+💡 [FAQ Accordion Challenge](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz)
 
 ---
 
