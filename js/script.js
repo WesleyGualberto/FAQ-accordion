@@ -15,10 +15,10 @@ botoes.forEach(function (botao) {
     var icone = botao.querySelector("img");
 
     if (estaAberto) {
-      icone.src = "/assets/images/icon-plus.svg";
+      icone.src = "assets/images/icon-plus.svg";
       icone.alt = "Ícone para demonstrar quando o card está fechado";
     } else {
-      icone.src = "/assets/images/icon-minus.svg";
+      icone.src = "assets/images/icon-minus.svg";
       icone.alt = "Ícone para demonstrar quando o card está aberto";
     }
   });
