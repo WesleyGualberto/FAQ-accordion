@@ -51,7 +51,7 @@ faq-accordion/
 │ └── script.js
 ├── assets/
 │ └── images/
-├── project-images/
+├── design/
 │ └── Imagem-1.png (e outras imagens)
 ├── README.md
 └── LICENSE
