@@ -21,12 +21,12 @@ Projeto de um componente interativo de **FAQ (Perguntas Frequentes)** em formato
 ## 📸 Captura de Tela
 
 **Desktop 🖥️**  
-![Imagem 1](./project-images/Imagem-1.png)  
-![Imagem 2](./project-images/Imagem-2.png)  
+![Imagem 1](/design/Imagem-1.png)  
+![Imagem 2](/design/Imagem-2.png)  
 
 **Mobile 📱**  
-![Imagem 3](./project-images/Imagem-3.png)  
-![Imagem 4](./project-images/Imagem-4.png)  
+![Imagem 3](/design/Imagem-3.png)  
+![Imagem 4](/design/Imagem-4.png)  
 
 ---
 
